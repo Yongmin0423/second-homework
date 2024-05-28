@@ -1,0 +1,90 @@
+.title{
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    padding: 50px;
+    border: 50px solid red;
+    margin: 20px;
+}
+
+.main>:nth-child(2) {
+    border: 50px solid green;
+}
+
+.main>:nth-child(3) {
+    border: 50px solid blue;
+}
+
+.bonus>:first-child {
+    border: 50px solid #3498db;
+}
+
+.bonus>:nth-child(2) {
+    border: 50px solid #2c3e50;
+}
+
+.bonus>:nth-child(3) {
+    border: 50px solid #c0392b;
+}
+
+.blue {
+    visibility: 100%;
+}
+
+.green:hover {
+    display:none;
+}
+
+.blue {
+    visibility: visible;
+}
+
+.blue:hover {
+    visibility: hidden;
+}
+
+h1 {
+    color: #9b59b6
+}
+
+
+h1::before {
+    content: "Topic:";
+}
+
+.title::before {
+    content:none;
+}
+
+p {
+    font-size: 16px;
+    font-family: Verdana;
+    font-style: italic;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #2980b9 ;
+}
+
+.sub-header {
+    color:#2980b9;
+}
+
+body {
+background-color: #fff;
+background-image:
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+}
+
+.challenge2 {
+    padding-left: 10%;
+}
+
+.challenge2>:first-child {
+    text-align: center;
+}
